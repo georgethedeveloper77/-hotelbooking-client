@@ -1,3 +1,4 @@
+import React from "react";
 import { createContext, useReducer } from "react";
 
 const INITIAL_STATE = {
@@ -39,22 +40,3 @@ export const SearchContextProvider = ({ children }) => {
     </SearchContext.Provider>
   );
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
